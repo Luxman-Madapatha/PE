@@ -1,0 +1,11 @@
+def array_diff(a, b):
+    return [x for x in a if x not in b]
+
+could not fully work for my sol
+
+
+l = [1,2,2,2,2]
+val = []
+for i,y in enumerate(val): 
+    l = list(filter(lambda x: x != y, l))
+print(l)  
